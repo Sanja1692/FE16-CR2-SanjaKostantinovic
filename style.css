@@ -322,4 +322,34 @@ footer .foot:hover {
   font-size: larger;
   color: darkcyan;
 }
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 4%;
+            column-gap: 4%;
+    row-gap: 4%;
+  }
+  .container .grid {
+    grid-area: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 4%;
+            column-gap: 4%;
+    row-gap: 4%;
+  }
+  .container .grid {
+    grid-area: auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
