@@ -2,8 +2,9 @@
  @import "imports/navbar";
  @import "imports/footer";
  @import "imports/gridpics";
- body {
-     height: 1000px;
+ #page-container {
+     position: relative;
+     min-height: 100vh;
  }
  
  #googlefont {
@@ -13,6 +14,29 @@
          font-size: xx-large;
          color: $cian;
          padding: 2%;
+     }
+ }
+ 
+ .text {
+     color: $wh;
+     background-color: rgba(128, 128, 128, 0.5);
+     text-align: center;
+     position: relative;
+     top: 68%;
+     left: 0%;
+     span {
+         padding-top: 15%;
+     }
+     a {
+         text-decoration: none;
+         p {
+             padding-bottom: 3%;
+             color: $wh;
+             &:hover {
+                 font-size: larger;
+                 color: $cian;
+             }
+         }
      }
  }
  

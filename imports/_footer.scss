@@ -4,13 +4,14 @@ footer {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 1%;
+    margin-top: 32%;
     position: relative;
     width: 100%;
     bottom: 0;
     clear: both;
     .foot {
         text-decoration: none;
-        color: white;
+        color: $wh;
         transition: $trans;
         padding-left: 6%;
         padding-right: 6%;

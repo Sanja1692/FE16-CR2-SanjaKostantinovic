@@ -17,7 +17,6 @@
 .navbar .klein a:hover {
   font-size: larger;
   color: darkcyan;
-  padding: 5%;
 }
 
 footer {
@@ -26,6 +25,7 @@ footer {
   text-align: center;
   padding-top: 2%;
   padding-bottom: 1%;
+  margin-top: 32%;
   position: relative;
   width: 100%;
   bottom: 0;
@@ -69,8 +69,8 @@ footer .foot:hover {
   position: absolute;
   width: 1.5em;
   height: 1.5em;
-  top: 2em;
-  right: 3em;
+  top: 1em;
+  right: 2.5em;
 }
 
 #end {
@@ -79,13 +79,14 @@ footer .foot:hover {
 }
 
 .container {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5%;
   display: -ms-grid;
   display: grid;
-  grid-gap: 20px;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 3%;
+          column-gap: 3%;
+  row-gap: 3%;
 }
 
 .container .grid {
@@ -94,153 +95,193 @@ footer .foot:hover {
 
 .container .first {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 19;
-  grid-row: 1/20;
+  -ms-grid-row-span: 29;
+  grid-row: 1/30;
   background-image: url(pics/pizza.jpg);
   background-repeat: no-repeat;
+  background-position: 100%;
   background-size: cover;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.5 linear;
+  transition: all 0.5 linear;
+  z-index: 1;
 }
 
 .container .first:hover {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 30;
+  grid-row: 1/31;
   z-index: 2;
-  border: none;
+  border-radius: 2%;
 }
 
 .container .second {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 19;
-  grid-row: 1/20;
+  -ms-grid-row-span: 29;
+  grid-row: 1/30;
   background-image: url(pics/breakfast.jpg);
   background-repeat: no-repeat;
+  background-position: 100%;
   background-size: cover;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.5 linear;
+  transition: all 0.5 linear;
+  z-index: 1;
 }
 
 .container .second:hover {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 30;
+  grid-row: 1/31;
   z-index: 2;
-  border: none;
+  border-radius: 2%;
 }
 
 .container .third {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 19;
-  grid-row: 1/20;
+  -ms-grid-row-span: 29;
+  grid-row: 1/30;
   background-image: url(pics/cheese.jpg);
   background-repeat: no-repeat;
+  background-position: 100%;
   background-size: cover;
   background-position: center;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.5 linear;
+  transition: all 0.5 linear;
+  z-index: 1;
 }
 
 .container .third:hover {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 30;
+  grid-row: 1/31;
   z-index: 2;
-  border: none;
+  border-radius: 2%;
 }
 
 .container .fourth {
-  -ms-grid-row: 21;
-  -ms-grid-row-span: 20;
-  grid-row: 21/41;
+  -ms-grid-row: 31;
+  -ms-grid-row-span: 30;
+  grid-row: 31/61;
   background-image: url(pics/fish.jpg);
   background-repeat: no-repeat;
+  background-position: 100%;
   background-size: cover;
   background-position: center;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.5 linear;
+  transition: all 0.5 linear;
 }
 
 .container .fourth:hover {
+  -ms-grid-row: 30;
+  -ms-grid-row-span: 32;
+  grid-row: 30/62;
   z-index: 2;
-  border: none;
+  border-radius: 2%;
 }
 
 .container .five {
-  -ms-grid-row: 21;
-  -ms-grid-row-span: 20;
-  grid-row: 21/41;
+  -ms-grid-row: 31;
+  -ms-grid-row-span: 30;
+  grid-row: 31/61;
   background-image: url(pics/mini.jpg);
   background-repeat: no-repeat;
+  background-position: 100%;
   background-size: cover;
   background-position: center;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.5 linear;
+  transition: all 0.5 linear;
 }
 
 .container .five:hover {
+  -ms-grid-row: 30;
+  -ms-grid-row-span: 32;
+  grid-row: 30/62;
   z-index: 2;
-  border: none;
+  border-radius: 2%;
 }
 
 .container .six {
-  -ms-grid-row: 21;
-  -ms-grid-row-span: 20;
-  grid-row: 21/41;
+  -ms-grid-row: 31;
+  -ms-grid-row-span: 30;
+  grid-row: 31/61;
   background-image: url(pics/rice.jpg);
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-  background-position: center;
-  /* background-repeat: no-repeat; */
+  -webkit-transition: all 0.5 linear;
+  transition: all 0.5 linear;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
 }
 
 .container .six:hover {
+  -ms-grid-row: 30;
+  -ms-grid-row-span: 32;
+  grid-row: 30/62;
   z-index: 2;
-  border: none;
+  border-radius: 2%;
 }
 
 .container .seven {
-  -ms-grid-row: 42;
-  -ms-grid-row-span: 20;
-  grid-row: 42/62;
+  -ms-grid-row: 62;
+  -ms-grid-row-span: 30;
+  grid-row: 62/92;
   background-image: url(pics/pancakes.jpg);
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-  background-position: center;
-  /* background-repeat: no-repeat; */
+  -webkit-transition: all 0.5 linear;
+  transition: all 0.5 linear;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
 }
 
 .container .seven:hover {
+  -ms-grid-row: 61;
+  -ms-grid-row-span: 32;
+  grid-row: 61/93;
   z-index: 2;
-  border: none;
+  border-radius: 2%;
 }
 
 .container .eight {
-  -ms-grid-row: 42;
-  -ms-grid-row-span: 20;
-  grid-row: 42/62;
+  -ms-grid-row: 62;
+  -ms-grid-row-span: 30;
+  grid-row: 62/92;
   background-image: url(pics/pea_soup.jpg);
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-  background-position: center;
-  /* background-repeat: no-repeat; */
+  -webkit-transition: all 0.5 linear;
+  transition: all 0.5 linear;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
 }
 
 .container .eight:hover {
+  -ms-grid-row: 61;
+  -ms-grid-row-span: 32;
+  grid-row: 61/93;
   z-index: 2;
-  border: none;
+  border-radius: 2%;
 }
 
 .container .nine {
-  -ms-grid-row: 42;
-  -ms-grid-row-span: 20;
-  grid-row: 42/62;
+  -ms-grid-row: 62;
+  -ms-grid-row-span: 30;
+  grid-row: 62/92;
   background-image: url(pics/dessert.jpg);
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-  background-position: center;
-  /* background-repeat: no-repeat; */
+  -webkit-transition: all 0.5 linear;
+  transition: all 0.5 linear;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
 }
 
 .container .nine:hover {
+  -ms-grid-row: 61;
+  -ms-grid-row-span: 32;
+  grid-row: 61/93;
   z-index: 2;
-  border: none;
+  border-radius: 2%;
 }
 
-body {
-  height: 1000px;
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
 #googlefont {
@@ -253,5 +294,32 @@ body {
   font-size: xx-large;
   color: darkcyan;
   padding: 2%;
+}
+
+.text {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.5);
+  text-align: center;
+  position: relative;
+  top: 68%;
+  left: 0%;
+}
+
+.text span {
+  padding-top: 15%;
+}
+
+.text a {
+  text-decoration: none;
+}
+
+.text a p {
+  padding-bottom: 3%;
+  color: white;
+}
+
+.text a p:hover {
+  font-size: larger;
+  color: darkcyan;
 }
 /*# sourceMappingURL=style.css.map */

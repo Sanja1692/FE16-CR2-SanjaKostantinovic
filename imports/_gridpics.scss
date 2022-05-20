@@ -7,8 +7,8 @@
         position: absolute;
         width: 1.5em;
         height: 1.5em;
-        top: 2em;
-        right: 3em;
+        top: 1em;
+        right: 2.5em;
     }
 }
 
@@ -18,115 +18,118 @@
 }
 
 .container {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5%;
     display: grid;
-    grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 3%;
+    row-gap: 3%;
     .grid {
         background-color: purple;
         ;
     }
     .first {
-        grid-row: 1/20;
+        grid-row: 1/30;
         background-image: url(pics/pizza.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: all 0.5s linear;
+        @include pic();
+        transition: $trans;
+        z-index: 1;
         &:hover {
+            grid-row: 1/31;
             z-index: 2;
-            border: none;
+            border-radius: 2%;
         }
     }
     .second {
-        grid-row: 1/20;
+        grid-row: 1/30;
         background-image: url(pics/breakfast.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: all 0.5s linear;
+        @include pic();
+        transition: $trans;
+        z-index: 1;
         &:hover {
+            grid-row: 1/31;
             z-index: 2;
-            border: none;
+            border-radius: 2%;
         }
     }
     .third {
-        grid-row: 1/20;
+        grid-row: 1/30;
         background-image: url(pics/cheese.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        @include pic();
         background-position: center;
-        transition: all 0.5s linear;
+        transition: $trans;
+        z-index: 1;
         &:hover {
+            grid-row: 1/31;
             z-index: 2;
-            border: none;
+            border-radius: 2%;
         }
     }
     .fourth {
-        grid-row: 21/41;
+        grid-row: 31/61;
         background-image: url(pics/fish.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        @include pic();
         background-position: center;
-        transition: all 0.5s linear;
+        transition: $trans;
         &:hover {
+            grid-row: 30/62;
             z-index: 2;
-            border: none;
+            border-radius: 2%;
         }
     }
     .five {
-        grid-row: 21/41;
+        grid-row: 31/61;
         background-image: url(pics/mini.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        @include pic();
         background-position: center;
-        transition: all 0.5s linear;
+        transition: $trans;
         &:hover {
+            grid-row: 30/62;
             z-index: 2;
-            border: none;
+            border-radius: 2%;
         }
     }
     .six {
-        grid-row: 21/41;
+        grid-row: 31/61;
         background-image: url(pics/rice.jpg);
-        transition: all 0.5s linear;
-        background-position: center;
-        /* background-repeat: no-repeat; */
+        transition: $trans;
+        @include pic();
         &:hover {
+            grid-row: 30/62;
             z-index: 2;
-            border: none;
+            border-radius: 2%;
         }
     }
     .seven {
-        grid-row: 42/62;
+        grid-row: 62/92;
         background-image: url(pics/pancakes.jpg);
-        transition: all 0.5s linear;
-        background-position: center;
-        /* background-repeat: no-repeat; */
+        transition: $trans;
+        @include pic();
         &:hover {
+            grid-row: 61/93;
             z-index: 2;
-            border: none;
+            border-radius: 2%;
         }
     }
     .eight {
-        grid-row: 42/62;
+        grid-row: 62/92;
         background-image: url(pics/pea_soup.jpg);
-        transition: all 0.5s linear;
-        background-position: center;
-        /* background-repeat: no-repeat; */
+        transition: $trans;
+        @include pic();
         &:hover {
+            grid-row: 61/93;
             z-index: 2;
-            border: none;
+            border-radius: 2%;
         }
     }
     .nine {
-        grid-row: 42/62;
+        grid-row: 62/92;
         background-image: url(pics/dessert.jpg);
-        transition: all 0.5s linear;
-        background-position: center;
-        /* background-repeat: no-repeat; */
+        transition: $trans;
+        @include pic();
         &:hover {
+            grid-row: 61/93;
             z-index: 2;
-            border: none;
+            border-radius: 2%;
         }
     }
 }
