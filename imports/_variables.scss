@@ -1,2 +1,7 @@
 $cian: darkcyan;
 $trans: all 0.5 linear;
+@mixin hover {
+    font-size: larger;
+    color: $cian;
+    padding: 5%;
+}

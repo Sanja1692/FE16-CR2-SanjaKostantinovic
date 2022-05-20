@@ -14,17 +14,15 @@ footer {
         transition: $trans;
         padding-left: 6%;
         padding-right: 6%;
-        &:hover {
-            font-size: larger;
-            color: $cian;
-            padding: 7%;
-        }
+        @include hover();
+        padding: 7%;
     }
-    .social {
-        margin-top: 1%;
-        .fa-facebook-square {
-            padding-left: 1em;
-            padding-right: 1em;
-        }
+}
+
+.social {
+    margin-top: 1%;
+    .fa-facebook-square {
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }

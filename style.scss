@@ -1,30 +1,27 @@
-                @import "imports/variables";
-                @import "imports/navbar";
-                @import "imports/footer";
-                @import "imports/gridpics";
-                #googlefont {
-                    font-family: 'Great Vibes', cursive;
-                    transition: $trans;
-                    &:hover {
-                        font-size: xx-large;
-                        color: $cian;
-                    }
-                }
-                
-                // .container {
-                //     display: grid;
-                //     grid-gap: 1%;
-                //     .grid1 {
-                //         display: grid;
-                //         grid-template-columns: 1fr 1fr;
-                //         .left {
-                //             grid-column-start: 1;
-                //         }
-                //     }
-                // }
-                // @media screen and (max-width: 900px) {
-                // }
-                // @media screen and (max-width: 600px) {
-                // }
-                // @media screen and (max-width: 480px) {
-                // }
+ @import "imports/variables";
+ @import "imports/navbar";
+ @import "imports/footer";
+ @import "imports/gridpics";
+ #googlefont {
+     font-family: 'Great Vibes', cursive;
+     transition: $trans;
+     @include hover();
+ }
+ 
+ // .container {
+ //     display: grid;
+ //     grid-gap: 1%;
+ //     .grid1 {
+ //         display: grid;
+ //         grid-template-columns: 1fr 1fr;
+ //         .left {
+ //             grid-column-start: 1;
+ //         }
+ //     }
+ // }
+ // @media screen and (max-width: 900px) {
+ // }
+ // @media screen and (max-width: 600px) {
+ // }
+ // @media screen and (max-width: 480px) {
+ // }
