@@ -1,0 +1,26 @@
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+    .foot {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            font-size: larger;
+            color: $cian;
+            padding: 1%;
+        }
+    }
+    .social {
+        margin-top: 1%;
+        .fa-facebook-square {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    }
+}
