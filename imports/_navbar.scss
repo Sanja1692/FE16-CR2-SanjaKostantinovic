@@ -8,7 +8,11 @@
                     color: black;
                     transition: $trans;
                     padding: 4%;
-                    @include hover();
+                    &:hover {
+                        font-size: larger;
+                        color: $cian;
+                        padding: 5%;
+                    }
                 }
             }
         }

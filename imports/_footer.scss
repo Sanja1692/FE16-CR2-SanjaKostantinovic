@@ -14,8 +14,11 @@ footer {
         transition: $trans;
         padding-left: 6%;
         padding-right: 6%;
-        @include hover();
-        padding: 7%;
+        &:hover {
+            font-size: larger;
+            color: $cian;
+            padding: 7%;
+        }
     }
 }
 

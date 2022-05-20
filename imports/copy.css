@@ -23,12 +23,7 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-    .grid {
-        background-color: purple;
-        ;
-    }
     .first {
-        grid-row: 1/20;
         background-image: url(pics/pizza.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -39,7 +34,6 @@
         }
     }
     .second {
-        grid-row: 1/20;
         background-image: url(pics/breakfast.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -50,7 +44,6 @@
         }
     }
     .third {
-        grid-row: 1/20;
         background-image: url(pics/cheese.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -62,7 +55,6 @@
         }
     }
     .fourth {
-        grid-row: 21/41;
         background-image: url(pics/fish.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -74,7 +66,6 @@
         }
     }
     .five {
-        grid-row: 21/41;
         background-image: url(pics/mini.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -86,7 +77,6 @@
         }
     }
     .six {
-        grid-row: 21/41;
         background-image: url(pics/rice.jpg);
         transition: all 0.5s linear;
         background-position: center;
@@ -97,8 +87,7 @@
         }
     }
     .seven {
-        grid-row: 42/62;
-        background-image: url(pics/pancakes.jpg);
+        background-image: url(pics/rice.jpg);
         transition: all 0.5s linear;
         background-position: center;
         /* background-repeat: no-repeat; */
@@ -108,8 +97,7 @@
         }
     }
     .eight {
-        grid-row: 42/62;
-        background-image: url(pics/pea_soup.jpg);
+        background-image: url(pics/rice.jpg);
         transition: all 0.5s linear;
         background-position: center;
         /* background-repeat: no-repeat; */
@@ -119,8 +107,7 @@
         }
     }
     .nine {
-        grid-row: 42/62;
-        background-image: url(pics/dessert.jpg);
+        background-image: url(pics/rice.jpg);
         transition: all 0.5s linear;
         background-position: center;
         /* background-repeat: no-repeat; */

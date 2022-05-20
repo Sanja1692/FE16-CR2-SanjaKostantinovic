@@ -47,11 +47,11 @@ footer .foot:hover {
   padding: 7%;
 }
 
-footer .social {
+.social {
   margin-top: 1%;
 }
 
-footer .social .fa-facebook-square {
+.social .fa-facebook-square {
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -88,7 +88,14 @@ footer .social .fa-facebook-square {
       grid-template-columns: repeat(3, 1fr);
 }
 
+.container .grid {
+  background-color: purple;
+}
+
 .container .first {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 19;
+  grid-row: 1/20;
   background-image: url(pics/pizza.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,6 +109,9 @@ footer .social .fa-facebook-square {
 }
 
 .container .second {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 19;
+  grid-row: 1/20;
   background-image: url(pics/breakfast.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,6 +125,9 @@ footer .social .fa-facebook-square {
 }
 
 .container .third {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 19;
+  grid-row: 1/20;
   background-image: url(pics/cheese.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,6 +142,9 @@ footer .social .fa-facebook-square {
 }
 
 .container .fourth {
+  -ms-grid-row: 21;
+  -ms-grid-row-span: 20;
+  grid-row: 21/41;
   background-image: url(pics/fish.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -143,6 +159,9 @@ footer .social .fa-facebook-square {
 }
 
 .container .five {
+  -ms-grid-row: 21;
+  -ms-grid-row-span: 20;
+  grid-row: 21/41;
   background-image: url(pics/mini.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -157,6 +176,9 @@ footer .social .fa-facebook-square {
 }
 
 .container .six {
+  -ms-grid-row: 21;
+  -ms-grid-row-span: 20;
+  grid-row: 21/41;
   background-image: url(pics/rice.jpg);
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
@@ -170,7 +192,10 @@ footer .social .fa-facebook-square {
 }
 
 .container .seven {
-  background-image: url(pics/rice.jpg);
+  -ms-grid-row: 42;
+  -ms-grid-row-span: 20;
+  grid-row: 42/62;
+  background-image: url(pics/pancakes.jpg);
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
   background-position: center;
@@ -183,7 +208,10 @@ footer .social .fa-facebook-square {
 }
 
 .container .eight {
-  background-image: url(pics/rice.jpg);
+  -ms-grid-row: 42;
+  -ms-grid-row-span: 20;
+  grid-row: 42/62;
+  background-image: url(pics/pea_soup.jpg);
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
   background-position: center;
@@ -196,7 +224,10 @@ footer .social .fa-facebook-square {
 }
 
 .container .nine {
-  background-image: url(pics/rice.jpg);
+  -ms-grid-row: 42;
+  -ms-grid-row-span: 20;
+  grid-row: 42/62;
+  background-image: url(pics/dessert.jpg);
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
   background-position: center;
@@ -208,6 +239,10 @@ footer .social .fa-facebook-square {
   border: none;
 }
 
+body {
+  height: 1000px;
+}
+
 #googlefont {
   font-family: 'Great Vibes', cursive;
   -webkit-transition: all 0.5 linear;
@@ -217,5 +252,6 @@ footer .social .fa-facebook-square {
 #googlefont:hover {
   font-size: xx-large;
   color: darkcyan;
+  padding: 2%;
 }
 /*# sourceMappingURL=style.css.map */

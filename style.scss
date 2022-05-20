@@ -2,10 +2,18 @@
  @import "imports/navbar";
  @import "imports/footer";
  @import "imports/gridpics";
+ body {
+     height: 1000px;
+ }
+ 
  #googlefont {
      font-family: 'Great Vibes', cursive;
      transition: $trans;
-     @include hover();
+     &:hover {
+         font-size: xx-large;
+         color: $cian;
+         padding: 2%;
+     }
  }
  
  // .container {
