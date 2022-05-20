@@ -4,20 +4,24 @@
                 @import "imports/gridpics";
                 #googlefont {
                     font-family: 'Great Vibes', cursive;
-                }
-                
-                .container {
-                    display: grid;
-                    grid-gap: 1%;
-                    .grid1 {
-                        display: grid;
-                        grid-template-columns: 1fr 1fr;
-                        .left {
-                            grid-column-start: 1;
-                        }
+                    transition: $trans;
+                    &:hover {
+                        font-size: xx-large;
+                        color: $cian;
                     }
                 }
                 
+                // .container {
+                //     display: grid;
+                //     grid-gap: 1%;
+                //     .grid1 {
+                //         display: grid;
+                //         grid-template-columns: 1fr 1fr;
+                //         .left {
+                //             grid-column-start: 1;
+                //         }
+                //     }
+                // }
                 // @media screen and (max-width: 900px) {
                 // }
                 // @media screen and (max-width: 600px) {
