@@ -323,6 +323,11 @@ footer .foot:hover {
   color: darkcyan;
 }
 
+.month {
+  height: 42vh;
+  width: 30vw;
+}
+
 @media screen and (max-width: 900px) {
   .container {
     display: -ms-grid;
