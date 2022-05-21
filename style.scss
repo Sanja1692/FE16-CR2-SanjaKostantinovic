@@ -54,7 +54,91 @@
          .grid {
              grid-area: auto;
          }
+         .first {
+             grid-row: 1/25;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 1/26;
+                 z-index: 2;
+             }
+         }
+         .second {
+             grid-row: 1/25;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 1/26;
+                 z-index: 2;
+             }
+         }
+         .third {
+             grid-row: 26/51;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 25/52;
+                 z-index: 2;
+             }
+         }
+         .fourth {
+             grid-row: 26/51;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 25/52;
+                 z-index: 2;
+             }
+         }
+         .five {
+             grid-row: 52/77;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 51/78;
+                 z-index: 2;
+             }
+         }
+         .six {
+             grid-row: 52/77;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 51/78;
+                 z-index: 2;
+             }
+         }
+         .seven {
+             grid-row: 78/102;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 77/103;
+                 z-index: 2;
+             }
+         }
+         .eight {
+             grid-row: 78/102;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 77/103;
+                 z-index: 2;
+             }
+         }
+         .nine {
+             grid-row: 103/128;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 102/129;
+                 z-index: 2;
+             }
+         }
      }
+     //  .footer {
+     //      position:fixed;
+     //  }
  }
  
  @media screen and (max-width: 600px) {
@@ -65,6 +149,87 @@
          row-gap: 4%;
          .grid {
              grid-area: auto;
+         }
+         .first {
+             grid-row: 1/10;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 1/11;
+                 z-index: 2;
+             }
+         }
+         .second {
+             grid-row: 11/21;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 10/22;
+                 z-index: 2;
+             }
+         }
+         .third {
+             grid-row: 22/32;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 21/33;
+                 z-index: 2;
+             }
+         }
+         .fourth {
+             grid-row: 33/43;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 32/44;
+                 z-index: 2;
+             }
+         }
+         .five {
+             grid-row: 44/54;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 43/55;
+                 z-index: 2;
+             }
+         }
+         .six {
+             grid-row: 55/65;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 54/66;
+                 z-index: 2;
+             }
+         }
+         .seven {
+             grid-row: 66/76;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 65/77;
+                 z-index: 2;
+             }
+         }
+         .eight {
+             grid-row: 77/87;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 76/88;
+                 z-index: 2;
+             }
+         }
+         .nine {
+             grid-row: 88/98;
+             @include pic();
+             background-position: center;
+             &:hover {
+                 grid-row: 87/99;
+                 z-index: 2;
+             }
          }
      }
  }

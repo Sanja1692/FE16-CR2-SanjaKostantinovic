@@ -341,6 +341,141 @@ footer .foot:hover {
   .container .grid {
     grid-area: auto;
   }
+  .container .first {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 24;
+    grid-row: 1/25;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .first:hover {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    grid-row: 1/26;
+    z-index: 2;
+  }
+  .container .second {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 24;
+    grid-row: 1/25;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .second:hover {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    grid-row: 1/26;
+    z-index: 2;
+  }
+  .container .third {
+    -ms-grid-row: 26;
+    -ms-grid-row-span: 25;
+    grid-row: 26/51;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .third:hover {
+    -ms-grid-row: 25;
+    -ms-grid-row-span: 27;
+    grid-row: 25/52;
+    z-index: 2;
+  }
+  .container .fourth {
+    -ms-grid-row: 26;
+    -ms-grid-row-span: 25;
+    grid-row: 26/51;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .fourth:hover {
+    -ms-grid-row: 25;
+    -ms-grid-row-span: 27;
+    grid-row: 25/52;
+    z-index: 2;
+  }
+  .container .five {
+    -ms-grid-row: 52;
+    -ms-grid-row-span: 25;
+    grid-row: 52/77;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .five:hover {
+    -ms-grid-row: 51;
+    -ms-grid-row-span: 27;
+    grid-row: 51/78;
+    z-index: 2;
+  }
+  .container .six {
+    -ms-grid-row: 52;
+    -ms-grid-row-span: 25;
+    grid-row: 52/77;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .six:hover {
+    -ms-grid-row: 51;
+    -ms-grid-row-span: 27;
+    grid-row: 51/78;
+    z-index: 2;
+  }
+  .container .seven {
+    -ms-grid-row: 78;
+    -ms-grid-row-span: 24;
+    grid-row: 78/102;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .seven:hover {
+    -ms-grid-row: 77;
+    -ms-grid-row-span: 26;
+    grid-row: 77/103;
+    z-index: 2;
+  }
+  .container .eight {
+    -ms-grid-row: 78;
+    -ms-grid-row-span: 24;
+    grid-row: 78/102;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .eight:hover {
+    -ms-grid-row: 77;
+    -ms-grid-row-span: 26;
+    grid-row: 77/103;
+    z-index: 2;
+  }
+  .container .nine {
+    -ms-grid-row: 103;
+    -ms-grid-row-span: 25;
+    grid-row: 103/128;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .nine:hover {
+    -ms-grid-row: 102;
+    -ms-grid-row-span: 27;
+    grid-row: 102/129;
+    z-index: 2;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -355,6 +490,141 @@ footer .foot:hover {
   }
   .container .grid {
     grid-area: auto;
+  }
+  .container .first {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    grid-row: 1/10;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .first:hover {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    grid-row: 1/11;
+    z-index: 2;
+  }
+  .container .second {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 10;
+    grid-row: 11/21;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .second:hover {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 12;
+    grid-row: 10/22;
+    z-index: 2;
+  }
+  .container .third {
+    -ms-grid-row: 22;
+    -ms-grid-row-span: 10;
+    grid-row: 22/32;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .third:hover {
+    -ms-grid-row: 21;
+    -ms-grid-row-span: 12;
+    grid-row: 21/33;
+    z-index: 2;
+  }
+  .container .fourth {
+    -ms-grid-row: 33;
+    -ms-grid-row-span: 10;
+    grid-row: 33/43;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .fourth:hover {
+    -ms-grid-row: 32;
+    -ms-grid-row-span: 12;
+    grid-row: 32/44;
+    z-index: 2;
+  }
+  .container .five {
+    -ms-grid-row: 44;
+    -ms-grid-row-span: 10;
+    grid-row: 44/54;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .five:hover {
+    -ms-grid-row: 43;
+    -ms-grid-row-span: 12;
+    grid-row: 43/55;
+    z-index: 2;
+  }
+  .container .six {
+    -ms-grid-row: 55;
+    -ms-grid-row-span: 10;
+    grid-row: 55/65;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .six:hover {
+    -ms-grid-row: 54;
+    -ms-grid-row-span: 12;
+    grid-row: 54/66;
+    z-index: 2;
+  }
+  .container .seven {
+    -ms-grid-row: 66;
+    -ms-grid-row-span: 10;
+    grid-row: 66/76;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .seven:hover {
+    -ms-grid-row: 65;
+    -ms-grid-row-span: 12;
+    grid-row: 65/77;
+    z-index: 2;
+  }
+  .container .eight {
+    -ms-grid-row: 77;
+    -ms-grid-row-span: 10;
+    grid-row: 77/87;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .eight:hover {
+    -ms-grid-row: 76;
+    -ms-grid-row-span: 12;
+    grid-row: 76/88;
+    z-index: 2;
+  }
+  .container .nine {
+    -ms-grid-row: 88;
+    -ms-grid-row-span: 10;
+    grid-row: 88/98;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .container .nine:hover {
+    -ms-grid-row: 87;
+    -ms-grid-row-span: 12;
+    grid-row: 87/99;
+    z-index: 2;
   }
 }
 /*# sourceMappingURL=style.css.map */
