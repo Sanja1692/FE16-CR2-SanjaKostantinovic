@@ -5,6 +5,8 @@
  #page-container {
      position: relative;
      min-height: 100vh;
+     display: flex;
+     flex-direction: column;
  }
  
  #googlefont {
@@ -49,8 +51,8 @@
      .container {
          display: grid;
          grid-template-columns: repeat(2, 1fr);
-         column-gap: 4%;
-         row-gap: 4%;
+         column-gap: 4vw;
+         row-gap: 4vh;
          .grid {
              grid-area: auto;
          }
@@ -135,18 +137,23 @@
                  z-index: 2;
              }
          }
+         footer {
+             position: absolute;
+             bottom: 0;
+             left: 0;
+             right: 0;
+             height: auto;
+             width: 100vw;
+         }
      }
-     //  .footer {
-     //      position:fixed;
-     //  }
  }
  
  @media screen and (max-width: 600px) {
      .container {
          display: grid;
          grid-template-columns: repeat(1, 1fr);
-         column-gap: 4%;
-         row-gap: 4%;
+         column-gap: 4vw;
+         row-gap: 4vh;
          .grid {
              grid-area: auto;
          }
