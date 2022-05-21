@@ -45,16 +45,26 @@
  .month {
      height: 42vh;
      width: 30vw;
+     margin-left: 10%;
  }
  
  .font-h2 {
      @include font();
-     font-size: larger
+     font-size: larger;
+     margin-left: 20%;
+     margin-right: 20%;
  }
  
  .font-h4 {
      @include font();
      font-size: medium;
+     margin-left: 20%;
+     margin-right: 20%;
+ }
+ 
+ p {
+     margin-left: 20%;
+     margin-right: 20%;
  }
  
  .blue {
