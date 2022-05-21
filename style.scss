@@ -24,7 +24,7 @@
      background-color: rgba(128, 128, 128, 0.5);
      text-align: center;
      position: relative;
-     top: 68%;
+     top: 74%;
      left: 0%;
      span {
          padding-top: 15%;
@@ -47,6 +47,23 @@
      width: 30vw;
  }
  
+ .font-h2 {
+     @include font();
+     font-size: larger
+ }
+ 
+ .font-h4 {
+     @include font();
+     font-size: medium;
+ }
+ 
+ .blue {
+     background-color: $cian;
+     border-radius: 19%;
+     text-align: center;
+     padding-left: 35%;
+ }
+ 
  @media screen and (max-width: 900px) {
      .container {
          display: grid;
@@ -57,83 +74,83 @@
              grid-area: auto;
          }
          .first {
-             grid-row: 1/25;
+             grid-row: 1/10;
              @include pic();
              background-position: center;
              &:hover {
-                 grid-row: 1/26;
+                 grid-row: 1/11;
                  z-index: 2;
              }
          }
          .second {
-             grid-row: 1/25;
+             grid-row: 1/10;
              @include pic();
              background-position: center;
              &:hover {
-                 grid-row: 1/26;
+                 grid-row: 1/11;
                  z-index: 2;
              }
          }
          .third {
-             grid-row: 26/51;
+             grid-row: 11/21;
              @include pic();
              background-position: center;
              &:hover {
-                 grid-row: 25/52;
+                 grid-row: 10/22;
                  z-index: 2;
              }
          }
          .fourth {
-             grid-row: 26/51;
+             grid-row: 11/21;
              @include pic();
              background-position: center;
              &:hover {
-                 grid-row: 25/52;
+                 grid-row: 10/22;
                  z-index: 2;
              }
          }
          .five {
-             grid-row: 52/77;
+             grid-row: 22/32;
              @include pic();
              background-position: center;
              &:hover {
-                 grid-row: 51/78;
+                 grid-row: 21/33;
                  z-index: 2;
              }
          }
          .six {
-             grid-row: 52/77;
+             grid-row: 22/32;
              @include pic();
              background-position: center;
              &:hover {
-                 grid-row: 51/78;
+                 grid-row: 21/33;
                  z-index: 2;
              }
          }
          .seven {
-             grid-row: 78/102;
+             grid-row: 33/43;
              @include pic();
              background-position: center;
              &:hover {
-                 grid-row: 77/103;
+                 grid-row: 32/44;
                  z-index: 2;
              }
          }
          .eight {
-             grid-row: 78/102;
+             grid-row: 33/43;
              @include pic();
              background-position: center;
              &:hover {
-                 grid-row: 77/103;
+                 grid-row: 32/44;
                  z-index: 2;
              }
          }
          .nine {
-             grid-row: 103/128;
+             grid-row: 44/54;
              @include pic();
              background-position: center;
              &:hover {
-                 grid-row: 102/129;
+                 grid-row: 43/55;
                  z-index: 2;
              }
          }

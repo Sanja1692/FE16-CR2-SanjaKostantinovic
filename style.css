@@ -84,8 +84,8 @@ footer .foot:hover {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  -webkit-column-gap: 1em;
-          column-gap: 1em;
+  -webkit-column-gap: 3em;
+          column-gap: 3em;
   row-gap: 1em;
 }
 
@@ -95,11 +95,12 @@ footer .foot:hover {
 
 .container .first {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 29;
-  grid-row: 1/30;
+  -ms-grid-row-span: 24;
+  grid-row: 1/25;
   background-image: url(pics/pizza.jpg);
   background-repeat: no-repeat;
   background-position: 100%;
+  background-position: center;
   background-size: cover;
   -webkit-transition: all 0.5 linear;
   transition: all 0.5 linear;
@@ -108,19 +109,20 @@ footer .foot:hover {
 
 .container .first:hover {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 30;
-  grid-row: 1/31;
+  -ms-grid-row-span: 25;
+  grid-row: 1/26;
   z-index: 2;
   border-radius: 2%;
 }
 
 .container .second {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 29;
-  grid-row: 1/30;
+  -ms-grid-row-span: 24;
+  grid-row: 1/25;
   background-image: url(pics/breakfast.jpg);
   background-repeat: no-repeat;
   background-position: 100%;
+  background-position: center;
   background-size: cover;
   -webkit-transition: all 0.5 linear;
   transition: all 0.5 linear;
@@ -129,19 +131,20 @@ footer .foot:hover {
 
 .container .second:hover {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 30;
-  grid-row: 1/31;
+  -ms-grid-row-span: 25;
+  grid-row: 1/26;
   z-index: 2;
   border-radius: 2%;
 }
 
 .container .third {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 29;
-  grid-row: 1/30;
+  -ms-grid-row-span: 24;
+  grid-row: 1/25;
   background-image: url(pics/cheese.jpg);
   background-repeat: no-repeat;
   background-position: 100%;
+  background-position: center;
   background-size: cover;
   background-position: center;
   -webkit-transition: all 0.5 linear;
@@ -151,19 +154,20 @@ footer .foot:hover {
 
 .container .third:hover {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 30;
-  grid-row: 1/31;
+  -ms-grid-row-span: 25;
+  grid-row: 1/26;
   z-index: 2;
   border-radius: 2%;
 }
 
 .container .fourth {
-  -ms-grid-row: 31;
-  -ms-grid-row-span: 30;
-  grid-row: 31/61;
+  -ms-grid-row: 26;
+  -ms-grid-row-span: 25;
+  grid-row: 26/51;
   background-image: url(pics/fish.jpg);
   background-repeat: no-repeat;
   background-position: 100%;
+  background-position: center;
   background-size: cover;
   background-position: center;
   -webkit-transition: all 0.5 linear;
@@ -171,20 +175,21 @@ footer .foot:hover {
 }
 
 .container .fourth:hover {
-  -ms-grid-row: 30;
-  -ms-grid-row-span: 32;
-  grid-row: 30/62;
+  -ms-grid-row: 25;
+  -ms-grid-row-span: 27;
+  grid-row: 25/52;
   z-index: 2;
   border-radius: 2%;
 }
 
 .container .five {
-  -ms-grid-row: 31;
-  -ms-grid-row-span: 30;
-  grid-row: 31/61;
+  -ms-grid-row: 26;
+  -ms-grid-row-span: 25;
+  grid-row: 26/51;
   background-image: url(pics/mini.jpg);
   background-repeat: no-repeat;
   background-position: 100%;
+  background-position: center;
   background-size: cover;
   background-position: center;
   -webkit-transition: all 0.5 linear;
@@ -192,89 +197,93 @@ footer .foot:hover {
 }
 
 .container .five:hover {
-  -ms-grid-row: 30;
-  -ms-grid-row-span: 32;
-  grid-row: 30/62;
+  -ms-grid-row: 25;
+  -ms-grid-row-span: 27;
+  grid-row: 25/52;
   z-index: 2;
   border-radius: 2%;
 }
 
 .container .six {
-  -ms-grid-row: 31;
-  -ms-grid-row-span: 30;
-  grid-row: 31/61;
+  -ms-grid-row: 26;
+  -ms-grid-row-span: 25;
+  grid-row: 26/51;
   background-image: url(pics/rice.jpg);
   -webkit-transition: all 0.5 linear;
   transition: all 0.5 linear;
   background-repeat: no-repeat;
   background-position: 100%;
+  background-position: center;
   background-size: cover;
 }
 
 .container .six:hover {
-  -ms-grid-row: 30;
-  -ms-grid-row-span: 32;
-  grid-row: 30/62;
+  -ms-grid-row: 25;
+  -ms-grid-row-span: 27;
+  grid-row: 25/52;
   z-index: 2;
   border-radius: 2%;
 }
 
 .container .seven {
-  -ms-grid-row: 62;
-  -ms-grid-row-span: 30;
-  grid-row: 62/92;
+  -ms-grid-row: 52;
+  -ms-grid-row-span: 25;
+  grid-row: 52/77;
   background-image: url(pics/pancakes.jpg);
   -webkit-transition: all 0.5 linear;
   transition: all 0.5 linear;
   background-repeat: no-repeat;
   background-position: 100%;
+  background-position: center;
   background-size: cover;
 }
 
 .container .seven:hover {
-  -ms-grid-row: 61;
-  -ms-grid-row-span: 32;
-  grid-row: 61/93;
+  -ms-grid-row: 51;
+  -ms-grid-row-span: 27;
+  grid-row: 51/78;
   z-index: 2;
   border-radius: 2%;
 }
 
 .container .eight {
-  -ms-grid-row: 62;
-  -ms-grid-row-span: 30;
-  grid-row: 62/92;
+  -ms-grid-row: 52;
+  -ms-grid-row-span: 25;
+  grid-row: 52/77;
   background-image: url(pics/pea_soup.jpg);
   -webkit-transition: all 0.5 linear;
   transition: all 0.5 linear;
   background-repeat: no-repeat;
   background-position: 100%;
+  background-position: center;
   background-size: cover;
 }
 
 .container .eight:hover {
-  -ms-grid-row: 61;
-  -ms-grid-row-span: 32;
-  grid-row: 61/93;
+  -ms-grid-row: 51;
+  -ms-grid-row-span: 27;
+  grid-row: 51/78;
   z-index: 2;
   border-radius: 2%;
 }
 
 .container .nine {
-  -ms-grid-row: 62;
-  -ms-grid-row-span: 30;
-  grid-row: 62/92;
+  -ms-grid-row: 52;
+  -ms-grid-row-span: 25;
+  grid-row: 52/77;
   background-image: url(pics/dessert.jpg);
   -webkit-transition: all 0.5 linear;
   transition: all 0.5 linear;
   background-repeat: no-repeat;
   background-position: 100%;
+  background-position: center;
   background-size: cover;
 }
 
 .container .nine:hover {
-  -ms-grid-row: 61;
-  -ms-grid-row-span: 32;
-  grid-row: 61/93;
+  -ms-grid-row: 51;
+  -ms-grid-row-span: 27;
+  grid-row: 51/78;
   z-index: 2;
   border-radius: 2%;
 }
@@ -308,7 +317,7 @@ footer .foot:hover {
   background-color: rgba(128, 128, 128, 0.5);
   text-align: center;
   position: relative;
-  top: 68%;
+  top: 74%;
   left: 0%;
 }
 
@@ -335,6 +344,25 @@ footer .foot:hover {
   width: 30vw;
 }
 
+.font-h2 {
+  color: darkcyan;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+.font-h4 {
+  color: darkcyan;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+.blue {
+  background-color: darkcyan;
+  border-radius: 19%;
+  text-align: center;
+  padding-left: 35%;
+}
+
 @media screen and (max-width: 900px) {
   .container {
     display: -ms-grid;
@@ -350,137 +378,146 @@ footer .foot:hover {
   }
   .container .first {
     -ms-grid-row: 1;
-    -ms-grid-row-span: 24;
-    grid-row: 1/25;
+    -ms-grid-row-span: 9;
+    grid-row: 1/10;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
   .container .first:hover {
     -ms-grid-row: 1;
-    -ms-grid-row-span: 25;
-    grid-row: 1/26;
+    -ms-grid-row-span: 10;
+    grid-row: 1/11;
     z-index: 2;
   }
   .container .second {
     -ms-grid-row: 1;
-    -ms-grid-row-span: 24;
-    grid-row: 1/25;
+    -ms-grid-row-span: 9;
+    grid-row: 1/10;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
   .container .second:hover {
     -ms-grid-row: 1;
-    -ms-grid-row-span: 25;
-    grid-row: 1/26;
+    -ms-grid-row-span: 10;
+    grid-row: 1/11;
     z-index: 2;
   }
   .container .third {
-    -ms-grid-row: 26;
-    -ms-grid-row-span: 25;
-    grid-row: 26/51;
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 10;
+    grid-row: 11/21;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
   .container .third:hover {
-    -ms-grid-row: 25;
-    -ms-grid-row-span: 27;
-    grid-row: 25/52;
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 12;
+    grid-row: 10/22;
     z-index: 2;
   }
   .container .fourth {
-    -ms-grid-row: 26;
-    -ms-grid-row-span: 25;
-    grid-row: 26/51;
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 10;
+    grid-row: 11/21;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
   .container .fourth:hover {
-    -ms-grid-row: 25;
-    -ms-grid-row-span: 27;
-    grid-row: 25/52;
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 12;
+    grid-row: 10/22;
     z-index: 2;
   }
   .container .five {
-    -ms-grid-row: 52;
-    -ms-grid-row-span: 25;
-    grid-row: 52/77;
+    -ms-grid-row: 22;
+    -ms-grid-row-span: 10;
+    grid-row: 22/32;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
   .container .five:hover {
-    -ms-grid-row: 51;
-    -ms-grid-row-span: 27;
-    grid-row: 51/78;
+    -ms-grid-row: 21;
+    -ms-grid-row-span: 12;
+    grid-row: 21/33;
     z-index: 2;
   }
   .container .six {
-    -ms-grid-row: 52;
-    -ms-grid-row-span: 25;
-    grid-row: 52/77;
+    -ms-grid-row: 22;
+    -ms-grid-row-span: 10;
+    grid-row: 22/32;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
   .container .six:hover {
-    -ms-grid-row: 51;
-    -ms-grid-row-span: 27;
-    grid-row: 51/78;
+    -ms-grid-row: 21;
+    -ms-grid-row-span: 12;
+    grid-row: 21/33;
     z-index: 2;
   }
   .container .seven {
-    -ms-grid-row: 78;
-    -ms-grid-row-span: 24;
-    grid-row: 78/102;
+    -ms-grid-row: 33;
+    -ms-grid-row-span: 10;
+    grid-row: 33/43;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
   .container .seven:hover {
-    -ms-grid-row: 77;
-    -ms-grid-row-span: 26;
-    grid-row: 77/103;
+    -ms-grid-row: 32;
+    -ms-grid-row-span: 12;
+    grid-row: 32/44;
     z-index: 2;
   }
   .container .eight {
-    -ms-grid-row: 78;
-    -ms-grid-row-span: 24;
-    grid-row: 78/102;
+    -ms-grid-row: 33;
+    -ms-grid-row-span: 10;
+    grid-row: 33/43;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
   .container .eight:hover {
-    -ms-grid-row: 77;
-    -ms-grid-row-span: 26;
-    grid-row: 77/103;
+    -ms-grid-row: 32;
+    -ms-grid-row-span: 12;
+    grid-row: 32/44;
     z-index: 2;
   }
   .container .nine {
-    -ms-grid-row: 103;
-    -ms-grid-row-span: 25;
-    grid-row: 103/128;
+    -ms-grid-row: 44;
+    -ms-grid-row-span: 10;
+    grid-row: 44/54;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
   .container .nine:hover {
-    -ms-grid-row: 102;
-    -ms-grid-row-span: 27;
-    grid-row: 102/129;
+    -ms-grid-row: 43;
+    -ms-grid-row-span: 12;
+    grid-row: 43/55;
     z-index: 2;
   }
   .container footer {
@@ -512,6 +549,7 @@ footer .foot:hover {
     grid-row: 1/10;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
@@ -527,6 +565,7 @@ footer .foot:hover {
     grid-row: 11/21;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
@@ -542,6 +581,7 @@ footer .foot:hover {
     grid-row: 22/32;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
@@ -557,6 +597,7 @@ footer .foot:hover {
     grid-row: 33/43;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
@@ -572,6 +613,7 @@ footer .foot:hover {
     grid-row: 44/54;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
@@ -587,6 +629,7 @@ footer .foot:hover {
     grid-row: 55/65;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
@@ -602,6 +645,7 @@ footer .foot:hover {
     grid-row: 66/76;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
@@ -617,6 +661,7 @@ footer .foot:hover {
     grid-row: 77/87;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }
@@ -632,6 +677,7 @@ footer .foot:hover {
     grid-row: 88/98;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
     background-position: center;
   }

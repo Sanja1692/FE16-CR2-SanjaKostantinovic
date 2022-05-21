@@ -4,5 +4,12 @@ $trans: all 0.5 linear;
 @mixin pic {
     background-repeat: no-repeat;
     background-position: 100%;
+    background-position: center;
     background-size: cover;
+}
+
+@mixin font {
+    color: $cian;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    // text-align: center;
 }

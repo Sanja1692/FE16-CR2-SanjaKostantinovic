@@ -21,113 +21,113 @@
     margin: 5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 1em;
+    column-gap: 3em;
     row-gap: 1em;
     .grid {
         background-color: purple;
         ;
     }
     .first {
-        grid-row: 1/30;
+        grid-row: 1/25;
         background-image: url(pics/pizza.jpg);
         @include pic();
         transition: $trans;
         z-index: 1;
         &:hover {
-            grid-row: 1/31;
+            grid-row: 1/26;
             z-index: 2;
             border-radius: 2%;
         }
     }
     .second {
-        grid-row: 1/30;
+        grid-row: 1/25;
         background-image: url(pics/breakfast.jpg);
         @include pic();
         transition: $trans;
         z-index: 1;
         &:hover {
-            grid-row: 1/31;
+            grid-row: 1/26;
             z-index: 2;
             border-radius: 2%;
         }
     }
     .third {
-        grid-row: 1/30;
+        grid-row: 1/25;
         background-image: url(pics/cheese.jpg);
         @include pic();
         background-position: center;
         transition: $trans;
         z-index: 1;
         &:hover {
-            grid-row: 1/31;
+            grid-row: 1/26;
             z-index: 2;
             border-radius: 2%;
         }
     }
     .fourth {
-        grid-row: 31/61;
+        grid-row: 26/51;
         background-image: url(pics/fish.jpg);
         @include pic();
         background-position: center;
         transition: $trans;
         &:hover {
-            grid-row: 30/62;
+            grid-row: 25/52;
             z-index: 2;
             border-radius: 2%;
         }
     }
     .five {
-        grid-row: 31/61;
+        grid-row: 26/51;
         background-image: url(pics/mini.jpg);
         @include pic();
         background-position: center;
         transition: $trans;
         &:hover {
-            grid-row: 30/62;
+            grid-row: 25/52;
             z-index: 2;
             border-radius: 2%;
         }
     }
     .six {
-        grid-row: 31/61;
+        grid-row: 26/51;
         background-image: url(pics/rice.jpg);
         transition: $trans;
         @include pic();
         &:hover {
-            grid-row: 30/62;
+            grid-row: 25/52;
             z-index: 2;
             border-radius: 2%;
         }
     }
     .seven {
-        grid-row: 62/92;
+        grid-row: 52/77;
         background-image: url(pics/pancakes.jpg);
         transition: $trans;
         @include pic();
         &:hover {
-            grid-row: 61/93;
+            grid-row: 51/78;
             z-index: 2;
             border-radius: 2%;
         }
     }
     .eight {
-        grid-row: 62/92;
+        grid-row: 52/77;
         background-image: url(pics/pea_soup.jpg);
         transition: $trans;
         @include pic();
         &:hover {
-            grid-row: 61/93;
+            grid-row: 51/78;
             z-index: 2;
             border-radius: 2%;
         }
     }
     .nine {
-        grid-row: 62/92;
+        grid-row: 52/77;
         background-image: url(pics/dessert.jpg);
         transition: $trans;
         @include pic();
         &:hover {
-            grid-row: 61/93;
+            grid-row: 51/78;
             z-index: 2;
             border-radius: 2%;
         }
