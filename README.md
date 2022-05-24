@@ -75,3 +75,21 @@ NOTE: Bootstrap won't be accepted in this code review. It is important to follow
 
 You can use sources such as https://unsplash.com, https://pixabay.com to find the best pictures for this CodeReview.
 Focus on how the recipes are positioned in the 2 images:  3 columns layout for the desktop vs. 1 column layout in the mobile version.
+
+
+Feedback:
+120.00 / 120.00
+	
+Hey Sanja,
+
+really well done in this CR, you managed to get most of the normal points and all the bonus points. I especially liked that you added hover effects everywhere, very nice! Although with a slower transition would be better. You also took advantage of SCSS and you have some imports, nesting, etc. And you also kept the style in the extra pages, but you could work a bit in the about page, the style is not great.
+
+The only thing that you missed was to use lists in the navbar, it was a requirement. Although nice solution anyway.
+
+As some feedback, I'd say that the navbar looks a little compressed in the phone version, you could work on it to make it look nicer. Also, the navbar links are broken, if you don't have any extra pages for them, just refer them to the index page. :)
+
+There is no much more I can say.
+
+Other than that, amazing job!
+Keep it up!
+- IratiLarreina Pinto
